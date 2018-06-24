@@ -1,0 +1,16 @@
+@relation cluster_movies
+@attribute Rating1 REAL
+@attribute  Rating2 REAL
+@attribute Movie_name {logan,Beauty&Beast,Chips,Kong,JohnWick,legobatman,ring,powerranger,assasinscreed}
+
+@data
+8,9,logan
+7.1,8,Beauty&Beast
+5,6,Chips
+4,5,Kong
+6,7,powerranger
+5,6,assasinscreed
+7,8,JohnWick
+8,9,legobatman
+7,8,ring
+

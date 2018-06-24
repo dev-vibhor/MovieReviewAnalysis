@@ -1,0 +1,11 @@
+@relation two 
+
+@attribute first real 
+
+@attribute second real 
+@attribute third real 
+@attribute forth real 
+
+
+@data 
+0.1,0.2,0.3,?

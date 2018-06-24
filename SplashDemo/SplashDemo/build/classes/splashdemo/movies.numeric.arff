@@ -1,0 +1,33 @@
+@relation movies
+
+
+@attribute Positive numeric
+@attribute Negative numeric
+@attribute popularity {TRUE, FALSE}
+@attribute watch {9-10,8-9,7-8,6-7,5-6,4-5,3-4,2-3,1-2,0-1}
+
+
+@data
+
+0,100,TRUE,0-1
+0,100,FALSE,0-1
+10,90,TRUE,1-2
+10,90,FALSE,0-1
+20,80,TRUE,2-3
+20,80,FALSE,1-2
+30,70,TRUE,3-4
+30,70,FALSE,2-3
+40,60,TRUE,4-5
+40,60,FALSE,3-4
+50,50,TRUE,5-6
+50,50,FALSE,4-5
+60,40,TRUE,6-7
+60,40,FALSE,5-6
+70,30,TRUE,7-8
+70,30,FALSE,6-7
+80,20,TRUE,8-9
+80,20,FALSE,7-8
+90,10,FALSE,8-9
+90,10,TRUE,9-10
+100,0,TRUE,9-10
+100,0,FALSE,9-10

@@ -1,0 +1,15 @@
+@relation one 
+
+
+@attribute first real 
+@attribute second real 
+@attribute third real 
+
+@attribute forth real 
+
+@data 
+1,1,0.7,1 
+1,1,1,1 
+0.9,0.8,0.5,1 
+
+0.9,0.8,0.8,1 
